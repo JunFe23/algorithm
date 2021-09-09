@@ -21,11 +21,11 @@ public class Q6 {
 			
 			for (int j = 0; j < arr[i].length(); j++) {
 				
-				if (arr[i].charAt(j) == 'O') {
+				if (arr[i].charAt(j) == 'O') { // 0이면 cnt ++
 					cnt++;
 				} 
 				else {
-					cnt = 0;
+					cnt = 0; // X이면 cnt=0
 				}
 				sum += cnt;
 			}
