@@ -7,13 +7,14 @@ public class Q2 {
 		Scanner in = new Scanner(System.in);
 		
 		int i = in.nextInt();
-		int a = in.nextInt();
+		String a = in.next();
+		
+		in.close();
+		
 		int sum = 0;
 		
 		for (int j = 0; j < i; j++) {
-			int b= a%10;
-			a=a/10;
-			sum += b;
+			sum += a.charAt(j)-'0';
 		}
 		
 		System.out.println(sum);
