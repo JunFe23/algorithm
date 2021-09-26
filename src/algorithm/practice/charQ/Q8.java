@@ -12,29 +12,37 @@ public class Q8 {
 		
 		for (int i = 0; i < numbers.length(); i++) {
 			switch (numbers.charAt(i)) {
-			case 'A','B','C': time+=3;
-			break;
+			case 'A': case 'B': case 'C': 
+				time+=3;
+				break;
 			
-			case 'D','E','F': time+=4;
-			break;
+			case 'D': case 'E': case 'F': 
+				time+=4;
+				break;
 			
-			case 'G','H','I': time+=5;
-			break;
+			case 'G': case 'H': case 'I': 
+				time+=5;
+				break;
 			
-			case 'J','K','L': time+=6;
-			break;
+			case 'J': case 'K': case 'L': 
+				time+=6;
+				break;
 			
-			case 'M','N','O': time+=7;
-			break;
+			case 'M': case 'N': case 'O': 
+				time+=7;
+				break;
 			
-			case 'P','Q','R','S': time+=8;
-			break;
+			case 'P': case 'Q': case 'R': case 'S':
+				time+=8;
+				break;
 			
-			case 'T','U','V': time+=9;
-			break;
+			case 'T': case 'U': case 'V': 
+				time+=9;
+				break;
 			
-			case 'W','X','Y','Z': time+=10;
-			break;
+			case 'W': case 'X': case 'Y': case 'Z':
+				time+=10;
+				break;
 			}
 		}
 		System.out.println(time);
